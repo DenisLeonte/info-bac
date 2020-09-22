@@ -21,4 +21,5 @@ int main()
     }
     if(!found)
         cout<<"NU EXISTA";
+    return 0;
 }
