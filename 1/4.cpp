@@ -17,5 +17,6 @@ int main()
 {
     int v[100], n, a;
     cout<<sub(v, n, a);
+    
     return 0;
 }
