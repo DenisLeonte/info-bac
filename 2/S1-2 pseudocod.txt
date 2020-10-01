@@ -1,0 +1,10 @@
+citeste x
+daca x>0 atunci
+    executa
+        citeste y
+        daca x>y atunci
+            scrie x%10
+        altfel
+            scrie y%10
+        x<-y
+    cat timp x>0
