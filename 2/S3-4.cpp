@@ -2,26 +2,51 @@
 
 using namespace std;
 
+int f(int n)
+{
+    int s = 0, d = 2;
+    while(n > 1)
+    {
+        if(n % d == 0)
+        {
+            s++;
+            n /= d;
+        }
+        else    d++;
+    }
+    return s;
+}
+
 int main()
 {
-    int hash[999] = {0};
-    int n = 90, s = 0;
-    while(n!=1)
+    int x, aux;
+    cin>>x;
+    if(x<10)
     {
-        for(int i = 2; i<=n;i++)
-        {
-            if(n % i == 0)
-            {
-                hash[i]++;
-                n /= i;
-                break;
-            }
-        }
+        if(f(x) == 1)   cout<<"DA\n";
+        else    cout<<"NU\n";
     }
-    for(int i = 1; i<=n;i++)
+    else if(x < 100)
     {
-        s+=hash[i];
+        int a, b, aux2 = 0;
+        aux = x;
+        int uc = aux % 10;
+        aux /= 10;
+        aux2 = uc * 10 + aux;
+        if(f(x) == f(aux2)) cout<<"DA\n";
+        else    cout<<"NU\n";
     }
-    cout<<s<<endl;
+    else
+    {
+        int a,b,c;
+        aux = x;
+        a = aux%10;
+        aux /= 10;
+        b = aux%10;
+        aux /= 10;
+        c = aux%10;
+        if(f(x) == 1 && f(a*100+c*10+b) == 1 && f(b*100+a*10+c) == 1 && f(b*100+c*10+a) == 1 && f(c*100+a*10+b) == 1 && f(c*100+b*10+a) == 1)   cout<<"DA\n";
+        else cout<<"NU\n";
+    }
     return 0;
 }

@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 
 using namespace std;
 
@@ -17,10 +16,9 @@ int sub(int v[], int n, int a)
 int main()
 {
     int v[100], n, aux;
-    ifstream in("temp.txt");
     for(int i = 0; i < n; i++)
         {
-            in>>aux;
+            cin>>aux;
             v[i] = aux;
         }
     int a[100];
