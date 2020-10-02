@@ -1,0 +1,9 @@
+citeste z,x
+daca x>0
+    executa
+        citeste y
+        daca z<y-x atunci
+            scrie x%10
+        altfel
+            scrie y%10
+        x<-y
