@@ -1,0 +1,12 @@
+1. c
+2. c
+3. 
+    int aux = f1.y;
+    f1.x *= f2.y;
+    f1.y *= f2.y;
+    f2.x *= aux;
+    f2.y *= aux;
+    f.x = f1.x + f2.x
+    f.y = f1.y;
+4. ideale
+5. S2-5.cpp
