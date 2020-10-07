@@ -1,0 +1,9 @@
+citeste a,b (numere intregi)
+daca a<b atunci
+    a<->b
+x<-a
+cat timp x!=b executa
+    daca x%2!=0 atunci
+        scrie x,' '
+    x<-x-1
+
