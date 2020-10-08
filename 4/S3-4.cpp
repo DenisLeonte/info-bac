@@ -33,19 +33,28 @@ int main()
             ok = false;
         }
     }
-    int s = 0,k = 1;
+    //build
+    int s = 0;
     if(ok)
     {
         for(int i = 1; i <= 9; i++)
             {
                 int aux = v[i];
-                while(aux >= 1)
+                while(aux >= 2)
                 {
-                    s = s*k + i;
+                    s = s*10 + i;
                     aux /= 2;
-                    k *= 10;
                 }
             }
+        for(int i = 9; i >= 1; i--)
+        {
+            int aux = v[i];
+            while(aux >= 2)
+            {
+                s = s * 10 + i;
+                aux /= 2;
+            }
+        }
     }
     cout<<s<<endl;
     return 0;
