@@ -1,0 +1,11 @@
+citeste x,z
+y<-0
+repeta
+    y<-y*10+x%10
+    x<-[x/10]
+cat timp x=0
+daca y=z atunci
+    daca y+z=0 atunci
+        scrie '1'
+    altfel 
+        scrie '0'
