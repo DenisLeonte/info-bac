@@ -1,0 +1,11 @@
+a. S2-1.cpp
+b. 
+t{
+    int x,y;
+};
+triunghi{
+    t A;
+    t B;
+    t C;
+};
+c. viCtORIe
