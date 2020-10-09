@@ -1,5 +1,5 @@
-a. S2-1.cpp
-b. 
+1. S2-1.cpp
+2. 
 t{
     int x,y;
 };
@@ -8,4 +8,4 @@ triunghi{
     t B;
     t C;
 };
-c. viCtORIe
+3. viCtORIe

@@ -1,0 +1,12 @@
+citeste n
+p<-1; m<-0; k<-0
+cat timp n!=0 executa
+    citeste x
+    daca k!=0 atunci
+        x<-[x/10*k]
+    daca x!=0 atunci c<-x%10
+    altfel  c<-n%10
+    m<-c*p+m
+    n<-[n/10]
+    p<-p*10; k<-k+1
+scrie m

@@ -1,6 +1,8 @@
 /*
 a. 2020
 b.
+c.
+d. S2-1 pseudocod.txt
 */
 #include <iostream>
 
