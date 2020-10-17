@@ -1,0 +1,9 @@
+citeste n
+s<- -1
+executa
+    daca n%10>s atunci
+        s<-n%10
+    altfel
+        s<-11
+    n<-[n/10]
+scrie s
