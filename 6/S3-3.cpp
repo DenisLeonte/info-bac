@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 #include <vector>
 
 using namespace std;
@@ -7,12 +6,11 @@ using namespace std;
 int main()
 {
     vector<int> a;
-    ifstream in("bac.txt");
     int n, aux;
-    in>>n;
+    cin>>n;
     for(int i = 0; i < n; i++)
     {
-        in>>aux;
+        cin>>aux;
         a.push_back(aux);
     }
     int j = n;
