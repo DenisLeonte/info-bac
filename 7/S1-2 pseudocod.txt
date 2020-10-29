@@ -1,0 +1,12 @@
+citeste n
+nr<-0
+a<-9
+executa
+    m<-n
+    cat timp m!=0 si m%10!=a executa
+        m<-[m/10]
+    daca m!=0 atunci
+        nr<-nr*10+m%10
+    a<-a-1
+cat timp(a!=0)
+scrie nr
