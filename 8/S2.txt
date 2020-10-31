@@ -1,0 +1,6 @@
+1. a
+2. c
+3. abefgh 6
+4. 0
+   p->urm != NULL
+5. S2-5.cpp
