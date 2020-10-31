@@ -1,0 +1,13 @@
+citeste n
+k<-9
+citeste x
+i<-1
+daca i!=n atunci
+    executa
+        citeste x
+        c<-x/10%10
+        daca c<k atunci
+            k<-c
+        i<-i+1
+    cat timp i!=n
+scrie k
