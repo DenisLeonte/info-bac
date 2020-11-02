@@ -1,0 +1,8 @@
+citeste n,k
+p<-1
+pentru i=0, i!=k, i<-i+1 executa
+    c<-n%10
+    daca c%2=1 atunci
+        p<-p*c
+    n<-n/10
+scrie p
