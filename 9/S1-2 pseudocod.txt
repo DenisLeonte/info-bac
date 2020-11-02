@@ -1,0 +1,11 @@
+citeste n
+s<-10
+daca n>0
+    executa
+        daca n%10<s atunci
+            s<-n%10
+        altfel
+            s<--1
+        n<-n/10
+    cat timp n>0
+scrie s
