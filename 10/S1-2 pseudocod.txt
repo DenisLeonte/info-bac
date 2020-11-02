@@ -1,0 +1,13 @@
+citeste n,k
+nr<-0
+p<-1
+daca n!=0 si k!=0 atunci
+    executa
+        daca n%2!=0 atunci
+            nr<-nr+n/10%10*p
+            p<-p*10
+        altfel
+            k<-k-1
+        n<-n/10
+    cat timp n!=0 si k!=0
+scrie nr
