@@ -1,0 +1,13 @@
+citeste a,b
+k<-0
+cat timp a!=b executa
+    n<-a
+    c<-0
+    cat timp n>0 executa
+        daca n%2=1 atunci
+            c<-c+1
+        n<-n/10
+    daca c>0 atunci
+        k<-k+1
+        a<-a+1
+scrie k
