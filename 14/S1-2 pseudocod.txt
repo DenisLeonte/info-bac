@@ -1,0 +1,14 @@
+citeste x
+n<-0
+daca x!=0 atunci
+    executa
+        y<-x
+        c<-0
+        cat timp y>0 executa
+            daca y%10>c executa
+                c<-y%10
+            y<-y/10
+        n<-n*10+c
+        citeste x
+    cat timp x!=0
+scrie n
