@@ -1,0 +1,8 @@
+citeste n
+i<-1
+cat timp i<n executa
+    daca i%2=0 atunci
+        scrie '#'
+    pentru j<-i+1,n executa
+        scrie '*'
+    i<-i+1
