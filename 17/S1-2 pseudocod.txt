@@ -1,0 +1,10 @@
+citeste x,y
+daca x>y executa
+    x<-x-y
+    y<-y+x
+    x<-y-x
+executa
+    scrie 'A'
+    x<-x-y
+    scrie 'B'
+cat timp x>=y
