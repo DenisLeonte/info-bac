@@ -1,0 +1,9 @@
+citeste x,y
+daca x>y atunci
+	y<-->x
+daca x%2=0 atunci
+	x<-x+1
+executa
+	x<-2
+	scrie '*'
+cat timp x<=y
