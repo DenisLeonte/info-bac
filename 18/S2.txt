@@ -1,0 +1,6 @@
+2. a
+3. 3 4
+4. strchar("aeiou", a[i])
+	cout<<'*';
+	cout<<a[i];
+5. S2-5.cpp;
