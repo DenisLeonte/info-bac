@@ -1,0 +1,17 @@
+citeste n
+a<-n%10
+m<-a
+n<-n/10
+b<-n%10
+daca a>b atunci
+	m<-m*10+b
+	a<-b
+daca n>9 atunci
+	executa
+		n<-n/10
+		b<-n%10
+		daca a>b atunci
+			m<-m*10+b
+			a<-b
+		cat timp n>9
+scrie m
