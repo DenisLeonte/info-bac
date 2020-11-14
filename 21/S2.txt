@@ -1,0 +1,5 @@
+1. a
+2. c
+3. ev.data_nasterii.an = 1990;
+4. 1, 4
+5. S2-5.cpp
