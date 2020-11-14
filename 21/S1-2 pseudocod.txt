@@ -1,0 +1,14 @@
+﻿citeste a,b,n (numere naturale)
+dacă b=0 atunci 
+	scrie ”gresit”
+cat timp i!=n si a!=0 executa
+	scrie [a/b]
+	dacă n>0 şi a%b !=0 atunci
+	scrie ”,”
+	a<-a%b 
+	i<-0
+	repeta
+		scrie [(a*10)/b]
+		a<-(a*10)%b
+		i<-i+1
+
