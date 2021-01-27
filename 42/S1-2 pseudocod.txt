@@ -1,0 +1,13 @@
+citeste x,y
+
+z <- x % y;
+x <- 2 * y;
+y <- 2 * z;
+
+daca y > 0 atunci
+    executa
+        z <- x % y;
+        x <- 2 * y;
+        y <- 2 * z;
+    cat timp y > 0
+scrie x;
