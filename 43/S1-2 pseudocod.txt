@@ -1,0 +1,15 @@
+citeste x,y;
+
+daca x>y atunci
+    x <- x % y;
+altfel
+    y <- y % x;
+
+daca x * y != 0 atunci
+    executa
+        daca x>y atunci
+            x <- x % y;
+        altfel
+            y <- y % x;
+    cat timp x * y != 0
+scrie x + y
